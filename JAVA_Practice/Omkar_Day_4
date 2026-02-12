@@ -1,0 +1,19 @@
+class Parent{
+    void display(){
+        System.out.println("Parent class method");
+    }
+}
+
+class Child extends Parent {
+    void display(){
+        super.dislay();
+        System.put.println("Child class method");
+    }
+}
+
+public class Omkar_Day_4{
+    public static void main(Sring[] args){
+        Child c = new Child();
+        c.display();
+    }
+}
